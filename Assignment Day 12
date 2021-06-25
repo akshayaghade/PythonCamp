@@ -1,0 +1,21 @@
+#Create a file 30days 30hours challenge
+
+f=open("30days 30hours challenge","w+")
+
+#Write data in it I have successfully completed 10 days
+
+f.write("I have completed 10days successfully")
+
+f.close()
+
+#Append the data your name in to it
+
+f1=open(r"30days 30hours operations.txt","a+")
+f1.writelines("Akshay Aghade")
+
+f1=open(r"30days 30hours operations.txt","r")
+print (f1.read())
+
+#Close the file
+
+f1.close()
